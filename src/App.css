@@ -1,0 +1,69 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* Ensure it's higher than other elements */
+    overflow: hidden;
+}
+
+.bn47 {
+    position: relative;
+    padding: 1rem 2rem 0.5rem 2.5rem;
+    color: #000000;
+    border: 3px solid #dbbe98;
+    -webkit-transition: padding 0.3s ease-in-out;
+    transition: padding 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.bn47:before {
+    content: "";
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: #cbf533;
+    border-right: 3px solid #dbbe98;
+    border-bottom: 3px solid #dbbe98;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.bn47:hover {
+    padding: 0.75rem 2.25rem;
+}
+
+.bn47:hover:before {
+    top: 0;
+    left: 0;
+}
+
+
+
+.btn {
+    padding: 1rem 2rem;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    color: blueviolet;
+    border-radius: .5rem;
+    border-bottom: 2px solid blueviolet;
+    border-right: 2px solid blueviolet;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    transition-property: border-top,
+        border-left,
+        border-bottom,
+        border-right,
+        box-shadow;
+}
+
+.btn:hover {
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(238, 103, 238);
+    border-right: 2px solid rgb(238, 103, 238);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+}
