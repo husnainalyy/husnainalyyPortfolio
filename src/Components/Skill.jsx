@@ -63,7 +63,7 @@ function Skill() {
     return (
         <div className="  bg-[url(https://images.unsplash.com/photo-1599936962590-47270e4dbdf9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] ">
             <div className="w-full h-40 " >
-                <img src="../public/assets/wave.svg" alt=""  />
+                <img src="https://svgshare.com/i/16LE.svg" alt=""  />
             </div>
             <div className="flex flex-col justify-center items-center  pt-28" id="skills">
                 <p className="text-white text-7xl font-bold pb-8">Skills</p>
@@ -86,7 +86,7 @@ function Skill() {
                     
                 </div>
                 <div className="w-full  " >
-                    <img src="../public/assets/wave2.svg" alt="" id='technology' />
+                    <img src="https://svgshare.com/i/16Kc.svg" alt="" id='technology' />
                 </div>
             </div>
            

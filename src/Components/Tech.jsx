@@ -5,56 +5,56 @@ function Tech() {
     const [technology, settechnology] = useState([
         {
             tech: 'HTML',
-            icon:'../public/assets/tech/html.png'
+            icon:'https://i.ibb.co/5RyVzHG/html.png'
         },
         {
             tech: 'CSS',
-            icon: '../public/assets/tech/css.jpeg'
+            icon: 'https://i.ibb.co/9Gtf4Vj/css.jpg'
 
         },
         {
             tech: 'BOOTSTRAP',
-            icon: '../public/assets/tech/bootstrap.png'
+            icon: 'https://i.ibb.co/p6q0yYf/bootstrap.png'
         },
         {
             tech: 'TAILWIND',
-            icon: '../public/assets/tech/tailwind.png'
+            icon: 'https://i.ibb.co/mbcddhc/tailwind.png'
         },
         {
             tech: 'MATERIALIZE ',
-            icon: '../public/assets/tech/materialize.png'
+            icon: 'https://i.ibb.co/r5CHvnb/materialize.png'
         },
         {
             tech: 'JAVA SCRIPT',
-            icon: '../public/assets/tech/js.jpeg'
+            icon: 'https://i.ibb.co/WpjGsYN/js.jpg'
         },
         {
             tech: 'GSAP',
-            icon: '../public/assets/tech/gsap.png'
+            icon: 'https://i.ibb.co/ggKDSV4/gsap.png'
         },
         {
             tech: 'FRAMER MOTION',
-            icon: '../public/assets/tech/framerr.png'
+            icon: 'https://i.ibb.co/5TFzNbD/framerr.png'
         },
         {
             tech: 'THREE JS',
-            icon: '../public/assets/tech/three.png'
+            icon: 'https://i.ibb.co/9wVLyvV/three.png'
         },
         {
             tech: 'REACT',
-            icon: '../public/assets/tech/react.png'
+            icon: 'https://i.ibb.co/mHMZJTy/react.png'
         },
         {
             tech: 'GIT',
-            icon: '../public/assets/tech/git.png'
+            icon: 'https://i.ibb.co/1mPdY4T/git.png'
         },
         {
             tech: 'FIGMA',
-            icon: '../public/assets/tech/figma.png'
+            icon: 'https://i.ibb.co/bs4NjR4/figma.png'
         },
         {
             tech: 'REDUX',
-            icon: '../public/assets/tech/redux.png'
+            icon: 'https://i.ibb.co/4KnrQ6X/redux.png'
         }
         
     ])
