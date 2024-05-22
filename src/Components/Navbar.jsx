@@ -38,7 +38,7 @@
                         }}
 
                     >
-                        <img className='w-24 h-full object-cover scale-[2.1] lg:scale-[2.5] ' src="../src/assets/husnainfolio-logo.svg" alt="husnainfolio" />
+                        <img className='w-24 h-full object-cover scale-[2.1] lg:scale-[2.5] ' src="../public/assets/husnainfolio-logo.svg" alt="husnainfolio" />
                     </Link>
                 </div>
                 <ul className=" list-none hidden  sm:flex  justify-end items-center  gap-6 pe-5">
@@ -57,7 +57,7 @@
                     }
                 </ul>
                 <div className=' sm:hidden flex flex-1 justify-end items-center'>
-                    <img src={toggle ? "../src/assets/cross.svg" : "../src/assets/hammenu.svg"}
+                    <img src={toggle ? "../public/assets/cross.svg" : "../public/assets/hammenu.svg"}
                         alt="menu"
                         className=' w-10 h-1/2 object-cover  '
                         onClick={() => {

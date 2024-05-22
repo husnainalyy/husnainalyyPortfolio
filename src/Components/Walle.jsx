@@ -7,7 +7,7 @@ import { Html } from "@react-three/drei";
 
 
 function Walle() {
-    const walle = useGLTF("../public/walle/scene.gltf");
+    const walle = useGLTF("/walle/scene.gltf");
     const meshRef = React.useRef();
 
     return (

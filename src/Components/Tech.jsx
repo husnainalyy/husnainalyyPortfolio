@@ -5,56 +5,56 @@ function Tech() {
     const [technology, settechnology] = useState([
         {
             tech: 'HTML',
-            icon:'../src/assets/tech/html.png'
+            icon:'../public/assets/tech/html.png'
         },
         {
             tech: 'CSS',
-            icon: '../src/assets/tech/css.jpeg'
+            icon: '../public/assets/tech/css.jpeg'
 
         },
         {
             tech: 'BOOTSTRAP',
-            icon: '../src/assets/tech/bootstrap.png'
+            icon: '../public/assets/tech/bootstrap.png'
         },
         {
             tech: 'TAILWIND',
-            icon: '../src/assets/tech/tailwind.png'
+            icon: '../public/assets/tech/tailwind.png'
         },
         {
             tech: 'MATERIALIZE ',
-            icon: '../src/assets/tech/materialize.png'
+            icon: '../public/assets/tech/materialize.png'
         },
         {
             tech: 'JAVA SCRIPT',
-            icon: '../src/assets/tech/js.jpeg'
+            icon: '../public/assets/tech/js.jpeg'
         },
         {
             tech: 'GSAP',
-            icon: '../src/assets/tech/gsap.png'
+            icon: '../public/assets/tech/gsap.png'
         },
         {
             tech: 'FRAMER MOTION',
-            icon: '../src/assets/tech/framerr.png'
+            icon: '../public/assets/tech/framerr.png'
         },
         {
             tech: 'THREE JS',
-            icon: '../src/assets/tech/three.png'
+            icon: '../public/assets/tech/three.png'
         },
         {
             tech: 'REACT',
-            icon: '../src/assets/tech/react.png'
+            icon: '../public/assets/tech/react.png'
         },
         {
             tech: 'GIT',
-            icon: '../src/assets/tech/git.png'
+            icon: '../public/assets/tech/git.png'
         },
         {
             tech: 'FIGMA',
-            icon: '../src/assets/tech/figma.png'
+            icon: '../public/assets/tech/figma.png'
         },
         {
             tech: 'REDUX',
-            icon: '../src/assets/tech/redux.png'
+            icon: '../public/assets/tech/redux.png'
         }
         
     ])

@@ -43,7 +43,7 @@ function Projects() {
             <div className=' ' >             
                 {
                     Projects.map((project, index) => (
-                        <div>
+                        <div key={project.id}>
                         <div key={index} className='  hidden lg:block p-4 w-full  h-full '>                          
                                 {index % 2 ?
                                     <div key={index} className='flex p-2 w-full  h-full '>
@@ -73,9 +73,9 @@ function Projects() {
                         </div> 
 
 
-                        <div key={index} className='  block lg:hidden  w-full  h-full p-4'>                          
+                        <div key={project.id} className='  block lg:hidden  w-full  h-full p-4'>                          
                             {
-                                <div key={index} className='flex-col w-full h-full '>
+                                <div key={project.id} className='flex-col w-full h-full '>
                                     <div className='w-full'>
                                         <img className='w-full h-96 relative hover:border-[#FFF7ED]  hover:border-b-8 hover:border-r-8 transition-all duration-1000' src={project.img} alt={project.title} />
                                     </div>

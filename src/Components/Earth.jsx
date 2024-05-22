@@ -6,7 +6,7 @@ import CanvasLoader from "../Components/Loader";
 
 
 const Earth = () => {
-    const earth = useGLTF("../public/spaceship/scene.gltf");
+    const earth = useGLTF("/spaceship/scene.gltf");
     const meshRef = React.useRef();
 
     return (

@@ -29,23 +29,23 @@ function About() {
     const [cards, setcards] = useState([
         {
             title: 'HTML & CSS',
-            icon:'../src/assets/cards/html.svg'
+            icon:'../public/assets/cards/html.svg'
         },
         {
             title: 'JavaScript ',
-            icon:'../src/assets/cards/javascript.svg'
+            icon:'../public/assets/cards/javascript.svg'
         },
         {
             title: 'React & Redux',
-            icon:'../src/assets/cards/react.svg'
+            icon:'../public/assets/cards/react.svg'
         },
         {
             title: 'Animation',
-            icon:'../src/assets/cards/framer-motion.svg'
+            icon:'../public/assets/cards/framer-motion.svg'
         },
         {
             title: '3D visuals',
-            icon:'../src/assets/cards/threejs.svg'
+            icon:'../public/assets/cards/threejs.svg'
         },
     ])
     return (
