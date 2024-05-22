@@ -142,7 +142,7 @@ const Contact = () => {
                         initial="hidden"
                         animate={ "show"}
                         variants={slideIn("right", "tween", 2, 1)}
-                        className='w-1/3 lg h-screen '
+                        className='w-1/3 lg:h-screen '
                     >
                         <EarthCanvas />
                     </motion.div>
