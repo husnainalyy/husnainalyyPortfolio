@@ -65,7 +65,7 @@ function Skill() {
             <div className="w-full h-40 " >
                 <img src="https://svgshare.com/i/16LE.svg" alt=""  />
             </div>
-            <div className="flex flex-col justify-center items-center  pt-28" id="skills">
+            <div className="flex flex-col justify-center items-center pt-16 lg:pt-28" id="skills">
                 <p className="text-white text-7xl font-bold pb-8">Skills</p>
                 <div className="w-full lg:w-2/3 h-screen lg:h-96  grid  lg:flex  backdrop-blur-md">
                     <div className="w-full lg:w-1/2  justify-center items-center lg:border-r-2">

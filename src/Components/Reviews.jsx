@@ -28,7 +28,7 @@ function Reviews() {
             <div className='backdrop-blur-3xl mx-0 lg:mx-56  p-5 '>
                 <p className='text-gray-200'>What others says </p>
                 <p className='text-white text-4xl lg:text-5xl font-bold pb-6 lg:pb-0'>TESTIMONIALS.</p>
-                <div className='w-full flex flex-col lg:flex-row justify-center items-center gap-6  lg:h-96   '>
+                <div className='w-full flex flex-col lg:flex-row justify-center items-center gap-6 py-6  min-h-min   '>
                     {reviews.map((testimonial,index) => (
                         <div key={index} className='w-full lg:w-1/3 p-5  h-80  flex-col pt-16  gap-2 bg-[#060e2a] backdrop-blur-lg border rounded-xl'>
                             <p className=''>{testimonial.review }</p>
