@@ -36,7 +36,7 @@ function Projects() {
     ])
     
     return (
-        <div className='w-full  flex flex-col gap-y-6 justify-items-center items-center' id='projects'>
+        <div className='w-full bg-gray-900	  flex flex-col gap-y-6 justify-items-center items-center' id='projects'>
             <div>
                 <p className='mt-10 lg:mt-20 font-bold text-4xl lg:text-5xl text-white'>Latest Projects</p>
             </div>
