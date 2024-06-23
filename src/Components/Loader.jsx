@@ -14,7 +14,8 @@ const CanvasLoader = () => {
             }}
         >
             <span className='canvas-loader'></span>
-            <p
+            {/* Comment out or remove this paragraph to hide the loading percentage */}
+            {/* <p
                 style={{
                     fontSize: 14,
                     color: "#F1F1F1",
@@ -23,7 +24,7 @@ const CanvasLoader = () => {
                 }}
             >
                 {progress.toFixed(2)}%
-            </p>
+            </p> */}
         </Html>
     );
 };
